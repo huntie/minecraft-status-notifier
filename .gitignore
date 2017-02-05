@@ -1,0 +1,8 @@
+# Editor files
+*.sublime-*
+
+# Dependencies
+/node_modules
+
+# Local configuration
+.env

@@ -1,0 +1,12 @@
+{
+  "name": "minecraft-status-notifier",
+  "version": "1.0.0",
+  "description": "Simple status notifier utility for Minecraft server on supervisord",
+  "author": "Alex Hunt <hello@alexhunt.io>",
+  "license": "GPL",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "node-fetch": "^1.6.3",
+    "supervisord-eventlistener": "^0.2.0"
+  }
+}
