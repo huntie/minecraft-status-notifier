@@ -4,6 +4,9 @@
   "description": "Simple status notifier utility for Minecraft server on supervisord",
   "author": "Alex Hunt <hello@alexhunt.io>",
   "license": "GPL",
+  "scripts": {
+      "install": "rsync --ignore-existing .env.example .env"
+  },
   "dependencies": {
     "dotenv": "^4.0.0",
     "node-fetch": "^1.6.3",
