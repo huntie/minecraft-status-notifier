@@ -20,7 +20,7 @@ Finally, load the updated configuration.
 
     supervisorctl update
 
-To match additional event types and customise broadcasted messages, edit `messages.json`.
+To match additional event types and customise broadcasted messages, edit `config/messages.json`.
 
 ### Maintenance mode
 

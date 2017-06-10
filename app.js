@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 
 require('dotenv').config();
 
-const messages = require('./messages.json');
+const messages = require('./config/messages.json');
 
 supervisor.on('event', (type, headers, data) => {
     if (data.groupname === process.env.PROCESS_GROUP_NAME && Object.keys(messages).includes(type)) {
