@@ -4,9 +4,7 @@ A small Node.js utility to listen to [Supervisord](http://supervisord.org/) even
 
 ## Usage
 
-Install dependencies using NPM or Yarn.
-
-    yarn install
+    npm install
 
 Edit `.env` to specify a target webhook URL and Supervisor process group name to match.
 
