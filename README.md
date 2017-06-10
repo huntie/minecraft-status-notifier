@@ -22,6 +22,16 @@ Finally, load the updated configuration.
 
 To match additional event types and customise broadcasted messages, edit `messages.json`.
 
+### Maintenance mode
+
+Maintenance mode can be set from the package directory. When enabled, new event messages will be suppressed.
+
+    npm run down
+
+This creates a `MAINTENANCE_MODE` file which can be deleted manually, or is removed when maintenance mode is disabled.
+
+    npm run up
+
 ## Sidenote
 
 This implementation can easily be generalised for any Supervisor-managed process, however was created as a quick personal tool and serves for reference purposes.
