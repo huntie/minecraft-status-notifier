@@ -20,7 +20,17 @@ Finally, load the updated configuration.
 
     supervisorctl update
 
-To match additional event types and customise broadcasted messages, edit `messages.json`.
+To match additional event types and customise broadcasted messages, edit `config/messages.json`.
+
+### Maintenance mode
+
+Maintenance mode can be set from the package directory. When enabled, new event messages will be suppressed.
+
+    npm run down
+
+This creates a `MAINTENANCE_MODE` file which can be deleted manually, or is removed when maintenance mode is disabled.
+
+    npm run up
 
 ## Sidenote
 

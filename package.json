@@ -5,7 +5,9 @@
   "author": "Alex Hunt <hello@alexhunt.io>",
   "license": "GPL",
   "scripts": {
-    "install": "rsync --ignore-existing .env.example .env"
+    "install": "rsync --ignore-existing .env.example .env",
+    "down": "echo '{}' > MAINTENANCE_MODE",
+    "up": "rm MAINTENANCE_MODE || true"
   },
   "dependencies": {
     "dotenv": "^4.0.0",

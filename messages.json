@@ -1,9 +1,0 @@
-{
-    "PROCESS_STATE_STARTING": "minecraft_server is starting",
-    "PROCESS_STATE_RUNNING": "minecraft_server is running",
-    "PROCESS_STATE_BACKOFF": "minecraft_server failed to start",
-    "PROCESS_STATE_STOPPING": "minecraft_server has been signalled to stop",
-    "PROCESS_STATE_EXITED": "minecraft_server exited unexpectedly",
-    "PROCESS_STATE_STOPPED": "minecraft_server stopped",
-    "PROCESS_STATE_FATAL": "minecraft_server failed to start after retry attempts"
-}

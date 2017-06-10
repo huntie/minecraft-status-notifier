@@ -1,0 +1,9 @@
+{
+    "PROCESS_STATE_STARTING": "Server is starting",
+    "PROCESS_STATE_RUNNING": "Server is running",
+    "PROCESS_STATE_BACKOFF": "Server failed to start",
+    "PROCESS_STATE_STOPPING": "Server has been signalled to stop",
+    "PROCESS_STATE_EXITED": "Server exited unexpectedly",
+    "PROCESS_STATE_STOPPED": "Server stopped",
+    "PROCESS_STATE_FATAL": "Server failed to start after retry attempts"
+}
